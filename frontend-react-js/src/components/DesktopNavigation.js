@@ -9,6 +9,7 @@ export default function DesktopNavigation(props) {
   let button;
   let profile;
   let notificationsLink;
+  let tasksLink;
   let messagesLink;
   let profileLink;
   if (props.user) {
@@ -18,6 +19,11 @@ export default function DesktopNavigation(props) {
       url="/notifications" 
       name="Notifications" 
       handle="notifications" 
+      active={props.active} />;
+    tasksLink = <DesktopNavigationLink 
+      url="/tasks" 
+      name="Tasks" 
+      handle="tasks" 
       active={props.active} />;
     messagesLink = <DesktopNavigationLink 
       url="/messages"
@@ -39,6 +45,7 @@ export default function DesktopNavigation(props) {
         handle="home"
         active={props.active} />
       {notificationsLink}
+      {tasksLink}
       {messagesLink}
       {profileLink}
       <DesktopNavigationLink url="/#" 

@@ -1,6 +1,8 @@
 import './App.css';
 
 import HomeFeedPage from './pages/HomeFeedPage';
+import NotificationFeedPage from './pages/NotificationFeedPage';
+import TaskFeedPage from './pages/TaskFeedPage';
 import UserFeedPage from './pages/UserFeedPage';
 import SignupPage from './pages/SignupPage';
 import SigninPage from './pages/SigninPage';
@@ -20,6 +22,16 @@ const router = createBrowserRouter([
     path: "/",
     element: <HomeFeedPage />
   },
+  {
+    path: "/notifications",
+    element: <NotificationFeedPage />
+  },
+
+  {
+    path: "/tasks",
+    element: <TaskFeedPage />
+  },
+
   {
     path: "/@:handle",
     element: <UserFeedPage />

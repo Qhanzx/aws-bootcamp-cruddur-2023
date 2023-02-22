@@ -20,6 +20,37 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Activity'
+  
+  /api/activities/notification:
+    get:
+      description: 'Return a feed of notification activity based on all users'
+      tags:
+        - activities
+      responses:
+        '200':
+          description: Returns an array of notification"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Activity'
+
+  /api/acitivities/task:
+    get:
+      description: 'Return a feed of task activity based on all users'
+      tags:
+        - activities
+      responses:
+        '200':
+          description: Returns an array of tasks"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Activity'
+
   /api/activities/search:
     get:
       description: 'Return a feed of activity based on a search term'

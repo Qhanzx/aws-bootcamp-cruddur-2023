@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import {ReactComponent as HomeIcon} from './svg/home.svg';
 import {ReactComponent as NotificationsIcon} from './svg/notifications.svg';
+import {ReactComponent as TaskIcon} from './svg/task.svg';
 import {ReactComponent as ProfileIcon} from './svg/profile.svg';
 import {ReactComponent as MoreIcon} from './svg/more.svg';
 import {ReactComponent as MessagesIcon} from './svg/messages.svg';
@@ -21,6 +22,9 @@ export default function DesktopNavigationLink(props) {
         break;
       case 'notifications':
         return <NotificationsIcon className='icon' />
+        break;
+      case 'tasks':
+        return <TaskIcon className='icon' />
         break;
       case 'profile':
         return <ProfileIcon className='icon' />
