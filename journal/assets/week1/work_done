@@ -52,3 +52,9 @@ docker info
 Created a Dockerfile and built a Docker image with
 docker build -t hello-world .
 docker run -tip 80:80 hello-world
+
+Documented the notification endpoint for openAI document
+Wrote a Flask backend endpoint for notification
+Wrote a react page for Notification
+Ran the DynamoDB local container and it worked creating a folder in the main
+Ran Postgres container and added a connection using the database explorer
