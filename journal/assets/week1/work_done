@@ -3,11 +3,11 @@ Run the dockerfile CMD as an external script
 Ran 'python3 -m flask run --host=0.0.0.0 --port=4567' on the backend-flask folder
 
 Ran 'npm i' on th efrontend-react-js folder
-[image]https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/npm.PNG
+![image]https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/npm.PNG
 
 Push and tag a image to DockerHub (they have a free tier)
 Pushed and tag image on Dockerhub by building the image and running from my local machine
-[image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/Docker%20hub.PNG
+![image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/Docker%20hub.PNG
 
 Use multi-stage building for a Dockerfile build
 The multistage dockerfile buid was done with th edocker-compose.yml file and composed up
@@ -30,7 +30,7 @@ Use multi-stage builds
 Learn how to install Docker on your localmachine and get the same containers running outside of Gitpod / Codespaces
 used 'docker build -t getting-started .' to build container 
 Ran it with 'docker run -d -p 80:80 docker/getting-started'
-[image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/Docker%20local%20Machine.PNG
+![image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/Docker%20local%20Machine.PNG
 
 Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes. 
 Launched an EC2 instance and updated the installed package with
@@ -38,7 +38,7 @@ sudo yum update -y
 
 Installed most recent Docker engine with
 sudo amazon-linux-extras-install docker
-[image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/aws-docker.PNG
+![image] https://github.com/Qhanzx/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week1/aws-docker.PNG
 
 Started docker service
 sudo service docker start
